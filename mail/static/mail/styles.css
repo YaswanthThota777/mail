@@ -1,0 +1,48 @@
+textarea {
+    min-height: 400px;
+}
+/* Add these styles to your CSS file or within a <style> block */
+
+.email-row {
+    border: 1px solid #ddd;
+    border-radius: 5px;
+    padding: 10px;
+    margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    background-color: #f9f9f9;
+    box-shadow: 0 2px 4px rgba(0, 0, 0, 0.1);
+    cursor: pointer;
+}
+
+.email-content {
+    flex: 1;
+    display: flex;
+    align-items: center;
+}
+
+.email-preview {
+    margin-left: 10px;
+    color: #555;
+    overflow: hidden;
+    text-overflow: ellipsis;
+    white-space: nowrap;
+}
+
+.timestamp {
+    color: #666;
+    font-size: 0.85em;
+    text-align: right;
+}
+
+/* Example CSS to ensure proper interaction */
+.form-control {
+    pointer-events: auto; /* Ensure the field can be interacted with */
+}
+
+/* If using Bootstrap or other libraries, ensure they aren't causing issues */
+.btn-primary {
+    cursor: pointer; /* Ensure button has a pointer cursor */
+}
+
